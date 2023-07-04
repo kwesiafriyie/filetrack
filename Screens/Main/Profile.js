@@ -20,6 +20,7 @@ import {
   Text,
   Input,
   Icon,
+  Divider,
 } from "native-base";
 
 
@@ -45,12 +46,91 @@ const Profile= (navigation) => {
             <Ionicons name="md-chevron-back-sharp" size={30} />
           </TouchableOpacity>
         <Heading fontFamily="Poppins-Bold" size="lg">
-            Customer List
+            Profile
           </Heading>
 
 
           <Text></Text>
-        </Center></Box>
+        </Center>
+        
+        <Center mb={5}>
+          <Image source={require('../../assets/img/User-Icon.png')} style={{width:110, height:110, marginTop:15}}/>
+        </Center>
+
+        <Text textAlign={'center'} mb={5} fontSize={16}>La Nkwantanang Madina Municipal {'\n'} Assembly</Text>
+        
+       <Divider/>
+
+
+       <Box flexDirection={'column'} mt={5} justifyContent={'space-between'} >
+        <Box flexDirection={'row'} mb={7} >
+
+        <TouchableOpacity onPress={() => navigation.goBack()}>
+              <MaterialCommunityIcons name="bell-badge-outline" size={30} style={{marginRight:10}} />
+              
+            </TouchableOpacity>
+
+            <Text fontSize={18}>Create New Files</Text>
+
+
+        </Box>
+
+        <Box flexDirection={'row'} mb={7}>
+
+<TouchableOpacity onPress={() => navigation.goBack()}>
+      <MaterialCommunityIcons name="bell-badge-outline" size={30} style={{marginRight:10}} />
+      
+    </TouchableOpacity>
+
+    <Text fontSize={18}>Create New Files</Text>
+
+
+</Box>
+
+
+<Box flexDirection={'row'} mb={7}>
+
+<TouchableOpacity onPress={() => navigation.goBack()}>
+      <MaterialCommunityIcons name="bell-badge-outline" size={30} style={{marginRight:10}} />
+      
+    </TouchableOpacity>
+
+    <Text fontSize={18}>Create New Files</Text>
+
+
+</Box>
+
+
+
+<Box flexDirection={'row'} mb={7}>
+
+<TouchableOpacity onPress={() => navigation.goBack()}>
+      <MaterialCommunityIcons name="bell-badge-outline" size={30} style={{marginRight:10}} />
+      
+    </TouchableOpacity>
+
+    <Text fontSize={18}>Create New Files</Text>
+
+
+</Box>
+
+
+<Box flexDirection={'row'} mb={7}>
+
+<TouchableOpacity onPress={() => navigation.goBack()}>
+      <MaterialCommunityIcons name="bell-badge-outline" size={30} style={{marginRight:10}} />
+      
+    </TouchableOpacity>
+
+    <Text fontSize={18}>Create New Files</Text>
+
+
+</Box>
+
+
+
+       </Box>
+        </Box>
          
 
        
